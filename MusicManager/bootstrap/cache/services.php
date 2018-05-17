@@ -26,10 +26,10 @@
     22 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
     23 => 'Laravel\\Tinker\\TinkerServiceProvider',
     24 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    25 => 'App\\Providers\\AppServiceProvider',
-    26 => 'App\\Providers\\AuthServiceProvider',
-    27 => 'App\\Providers\\EventServiceProvider',
-    28 => 'App\\Providers\\RouteServiceProvider',
+    25 => 'MusicManager\\Providers\\AppServiceProvider',
+    26 => 'MusicManager\\Providers\\AuthServiceProvider',
+    27 => 'MusicManager\\Providers\\EventServiceProvider',
+    28 => 'MusicManager\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -44,10 +44,10 @@
     8 => 'Illuminate\\Session\\SessionServiceProvider',
     9 => 'Illuminate\\View\\ViewServiceProvider',
     10 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    11 => 'App\\Providers\\AppServiceProvider',
-    12 => 'App\\Providers\\AuthServiceProvider',
-    13 => 'App\\Providers\\EventServiceProvider',
-    14 => 'App\\Providers\\RouteServiceProvider',
+    11 => 'MusicManager\\Providers\\AppServiceProvider',
+    12 => 'MusicManager\\Providers\\AuthServiceProvider',
+    13 => 'MusicManager\\Providers\\EventServiceProvider',
+    14 => 'MusicManager\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (

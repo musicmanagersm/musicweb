@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Bogota',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        MusicManager\Providers\AppServiceProvider::class,
+        MusicManager\Providers\AuthServiceProvider::class,
+        // MusicManager\Providers\BroadcastServiceProvider::class,
+        MusicManager\Providers\EventServiceProvider::class,
+        MusicManager\Providers\RouteServiceProvider::class,
 
     ],
 

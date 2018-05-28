@@ -15,4 +15,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'HomeController@login');
-Route::resource('song', 'SongController');
+Route::resource('song', 'Musica\SongController');

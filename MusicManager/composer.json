@@ -23,7 +23,8 @@
             "database/factories"
         ],
         "psr-4": {
-            "MusicManager\\": "app/"
+            "MusicManager\\": "app/",
+            "MusicApp\\":"app/Music"
         }
     },
     "autoload-dev": {

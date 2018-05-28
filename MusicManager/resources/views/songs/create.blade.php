@@ -5,7 +5,7 @@
 <script src="scripts/innovaeditor.js" type="text/javascript"></script>
 <script src="scripts/innovamanager.js" type="text/javascript"></script>
 @section('content')
-    <form style="margin: 50px" class="form-group" method="post" action="/song" enctype="multipart/form-data">
+    <form style="margin: 50px" class="form-group" method="post" action="{{url('song')}}" enctype="multipart/form-data">
         @csrf
 
         <div class="form-group">

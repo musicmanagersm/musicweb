@@ -1,12 +1,20 @@
 <?php
 
-namespace MusicManager\Http\Controllers;
+namespace MusicManager\Http\Controllers\Musica;
 
 use Illuminate\Http\Request;
-use MusicManager\Song;
+use MusicApp\Datos\Modelos\Song;
+use MusicApp\Negocio\Logica\CancionServicio;
+
+use MusicManager\Http\Controllers\Controller;
 
 class SongController extends Controller
 {
+
+    protected  $cancionesServicio;
+    public function __construct(CancionServicio $cancionServicio){
+        $this->cancionesServicio = $cancionServicio;
+    }
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +22,7 @@ class SongController extends Controller
      */
     public function index()
     {
-        $songs = Song::all();
+        $songs = $this->cancionesServicio->obtenerListaCanciones();
         return view('songs.index', compact('songs'));
     }
 

@@ -55,7 +55,7 @@ class SongController extends Controller
         $song->artista = $request->input('artista');
         $song->avatar = $name;
         $song->save();
-        $this->index();
+        return redirect('/song');
     }
 
     /**
